@@ -1,0 +1,26 @@
+.partner
+{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.partner__text
+{
+    color: #E95252;
+    font-weight: bolder;
+    margin-bottom: 70px;
+
+}
+.foot
+{
+height: 70px;
+width: auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: #4E4949;
+margin-top: 50px;
+}
