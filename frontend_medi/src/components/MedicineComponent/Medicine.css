@@ -1,0 +1,104 @@
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #4B0082;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__brand
+{
+    margin-left: 10%;
+    color: #FFC700;
+}
+.navbar__buttons1
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 15%;
+    width: auto;
+    justify-content: space-between;
+   
+}
+.medi__input1
+{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+}
+.product__button1
+{
+    /* padding-left: 20px; */
+    color: #4B0082;
+    background-color: #FFC700;
+    border-color: #4B0082;
+    border-style: none;
+    font-size: medium;
+    border-radius: 10px;
+    height: 35px;
+    margin-left: 10px;
+    width: 80px;
+}
+
+.display__medicine
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid salmon;
+    border-radius: 30px;
+    width: 400px;
+    height: autopx;
+}
+.tabletname
+{
+    background-color: #E95252;
+    color: white;
+    margin-right: 20px;
+    padding: 12px;
+}
+.div__arrangment
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    /* margin-right: -20px; */
+}
+.left__name
+{
+    margin-left: 10px;
+}
+.compname
+{
+    background-color: #E95252;
+    color: white;
+    margin-right: -10px;
+    padding: 12px;
+    padding-left: 20px;
+}
+.buybtn
+{
+    background-color: white;
+    color: #E95252;
+    border-color: #E95252;
+    border-radius: 30px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.display
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
